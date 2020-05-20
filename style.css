@@ -86,8 +86,10 @@ img {
   .row {
     max-width: 100%;
     text-align: center;
-
+    font-size: 5vmin;
+    margin-top: 10px;
   }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     max-width: 100%;
@@ -107,8 +109,14 @@ img {
    max-width: 100%;
    padding: 0;
   }
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 10px;
+  }
 
   h1 {
-    font-size: 1.2em;
+    font-size: 9vmin;
   }
 }
